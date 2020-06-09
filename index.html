@@ -5,14 +5,18 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- old fontawesome link -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>Tema WP</title>
 </head>
 
 <body>
-
+    
+    <!-- contenitore esterno per margine -->
     <div class="container_ext">
 
+        <!-- header immagine e logo sito -->
         <header>
             <div class="banner">
                 <div class="overlay">
@@ -24,8 +28,11 @@
                 </div>
             </div>
         </header>
+
+        <!-- nav bar orizzontale con elementi disposti flex -->
         <nav>
             <ul class="clearfix">
+                <!-- ogni a è un block per dargli un padding e definire tutta l'aria cliccabile-->
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Templates</a></li>
@@ -35,8 +42,11 @@
         </nav>
 
 
+        <!-- contenitore interno con aside main aside, e clearfix per non far collassare il
+        contenitore stesso -->
         <!-- questo contenitore potrebbe avere un margine top e bottom
         e non mettere il padding poi ai singoli elementi -->
+
         <div class="container_int clearfix">
 
             <aside class="left">
@@ -84,9 +94,9 @@
 
                 </div>
             </aside>
-
         </div>
 
+        <!-- ultimo contenitore, il footer -->
         <footer>
             <div class="wrap clearfix">
                 <h4><i>WP Theme powered by Ric &copy;</i></h4>
@@ -96,16 +106,17 @@
 
 
                     <div class="icon">
-                        <a href="#"><i class="fa fa-github fa-2x"></i></a>
+
+                        <a href="#"><i class="fab fa-github fa-2x"></i></a>
 
                     </div>
                     <div class="icon">
 
 
-                        <a href="#"> <i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="#"> <i class="fab fa-instagram fa-2x"></i></a>
                     </div>
                     <div class="icon">
-                        <a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
 
                     </div>
                 </div>
