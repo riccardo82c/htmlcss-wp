@@ -108,6 +108,7 @@ nav li a:hover {
     text-align: left;
     padding: 15px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 
@@ -151,6 +152,7 @@ nav li a:hover {
 
 .container_int main div {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    border-radius: 5px;
 }
 
 .container_int main h3 {
@@ -178,43 +180,51 @@ nav li a:hover {
     height: 100%;
     padding: 15px;
     background-color: #fff;
-
 }
 
 .container_int .right .card {
-    /* height: 40%; */
     padding: 15px;
     background-color: #ffffff;
     margin-bottom: 20px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    border-radius: 5px;
 }
 
-.container_int .right .card  {
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
-
-}
-
-.container_int .right .card  h4 {
+.container_int .right .card h4 {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.container_int .right .card  p {
+.container_int .right .card p {
     font-size: 0.9rem;
     font-weight: 300;
     margin-bottom: 10px;
 }
 
-
-
 footer {
-    height: 10%;
+    color: grey;
     padding: 10px;
     background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    border-radius: 5px;
+}
+
+footer h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+footer p {
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 
 footer div {
-    height: 100%;
-    background-color: lightblue;
+    padding: 15px;
+    background-color: #ffffff;
+    /* height: 100%; */
 }
