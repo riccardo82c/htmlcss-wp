@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container_ext {
+    width: 80%;
+    height: 120vh;
+    margin: 20px auto;
+    /* padding: 10px; */
+}
+
+header {
+    height: 30%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+header .banner {
+    height: 100%;
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header .title h1 {
+    font-size: 3rem;
+}
+
+header .title h2 {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+nav {
+    text-align: center;
+    background-color: #504741;
+    text-transform: uppercase;
+}
+
+nav ul {
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    width: calc(100% / 5);
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 0.6rem;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    padding: 16px 0;
+    letter-spacing: 2px;
+    color: white;
+    border-right: 1px solid rgb(129, 127, 127);
+    transition: all .3s;
+}
+
+nav li:last-child a {
+    border-right: none;
+}
+
+nav li a:hover {
+    background-color: #302b27;
+}
+
+.container_int {
+    height: 60%;
+}
+
+.container_int aside.left {
+    width: 25%;
+    padding: 20px 20px 20px 0;
+    float: left;
+}
+
+.container_int .left div {
+    text-align: left;
+    padding: 15px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    margin-bottom: 20px;
+}
+
+.container_int .left h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container_int .left ul {
+    list-style: none;
+}
+
+.container_int .left a {
+    display: block;
+    padding: 8px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #99cc33
+}
+
+.container_int .left a:hover {
+    background-color: rgba(0, 0, 0, .04);
+    box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
+    text-decoration: underline;
+}
+
+.container_int aside.right {
+    width: 30%;
+    height: 100%;
+    padding: 20px 0 20px 20px;
+    float: left;
+}
+
+.container_int main {
+    width: 45%;
+    height: 100%;
+    padding: 20px 0;
+    float: left;
+}
+
+.container_int .left div {
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.container_int .right div {
+    height: 100%;
+}
+
+.container_int main div {
+    height: 100%;
+    background-color: purple;
+}
+
+.container_int .right .card {
+    height: 40%;
+    background-color: pink;
+}
+
+.container_int .card:first-child {
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 10%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+footer div {
+    height: 100%;
+    background-color: lightblue;
+}
