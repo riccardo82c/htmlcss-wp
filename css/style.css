@@ -237,7 +237,6 @@ nav li a:hover {
 /************************/
 /* FOOTER*/
 /************************/
-
 footer {
     color: rgb(135, 135, 135);
     padding: 10px;
@@ -262,19 +261,17 @@ footer p {
 
 footer .wrap {
     padding: 15px;
-    background-color: #ffffff;
-    /* height: 100%; */
 }
 
 footer .wrap_icon {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 footer .icon {
-    text-align: center;
-    float: left;
-    width: calc(100% / 3);
+    display: inline-block;
+    padding: 0 50px ;
 }
 
 .icon a {
