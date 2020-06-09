@@ -16,7 +16,7 @@ body {
 }
 
 .container_ext {
-    width: 80%;
+    width: 60%;
     height: 120vh;
     margin: 20px auto;
     /* padding: 10px; */
@@ -95,7 +95,7 @@ nav li a:hover {
 }
 
 .container_int {
-    height: 60%;
+    /* height: 60%; */
 }
 
 .container_int aside.left {
@@ -137,17 +137,32 @@ nav li a:hover {
 }
 
 .container_int aside.right {
-    width: 30%;
-    height: 100%;
+    width: 25%;
+    /* height: 100%; */
     padding: 20px 0 20px 20px;
     float: left;
 }
 
 .container_int main {
-    width: 45%;
-    height: 100%;
+    width: 50%;
     padding: 20px 0;
     float: left;
+}
+
+.container_int main div {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+}
+
+.container_int main h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container_int main p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .container_int .left div {
@@ -161,17 +176,37 @@ nav li a:hover {
 
 .container_int main div {
     height: 100%;
-    background-color: purple;
+    padding: 15px;
+    background-color: #fff;
+
 }
 
 .container_int .right .card {
-    height: 40%;
-    background-color: pink;
+    /* height: 40%; */
+    padding: 15px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
 }
 
-.container_int .card:first-child {
-    margin-bottom: 20px;
+.container_int .right .card  {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+
 }
+
+.container_int .right .card  h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container_int .right .card  p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
 
 footer {
     height: 10%;
